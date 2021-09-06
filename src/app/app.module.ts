@@ -55,12 +55,14 @@ import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
 import { CardComponent } from './card/card.component';
 import { HomeComponent } from './home/home.component';
+import { CardsOthersComponent } from './cards-others/cards-others.component';
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     CardComponent,
     HomeComponent,
+    CardsOthersComponent,
   ],
   imports: [
     BrowserModule,
