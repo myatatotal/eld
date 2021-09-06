@@ -56,6 +56,8 @@ import {OverlayModule} from '@angular/cdk/overlay';
 import { CardComponent } from './card/card.component';
 import { HomeComponent } from './home/home.component';
 import { CardsOthersComponent } from './cards-others/cards-others.component';
+import { ContentTrialComponent } from './content-trial/content-trial.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,6 +65,8 @@ import { CardsOthersComponent } from './cards-others/cards-others.component';
     CardComponent,
     HomeComponent,
     CardsOthersComponent,
+    ContentTrialComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
