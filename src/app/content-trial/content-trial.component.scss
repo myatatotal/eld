@@ -31,12 +31,15 @@
       align-items: center;
       -webkit-justify-content: center;
       justify-content: center;
-      input{
+      .btn-primary{
         width: auto;
         padding: 10px;
         border: 0 transparent;
         border-radius: 20px;
         background-color: red;
+        &:hover{
+          background-color: rgb(126, 7, 7);
+        }
       }
     }
 
