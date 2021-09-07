@@ -5,6 +5,7 @@ import {CardComponent} from './card/card.component';
 import {CardsOthersComponent} from './cards-others/cards-others.component';
 import {ContentTrialComponent} from './content-trial/content-trial.component';
 import {FooterComponent} from './footer/footer.component';
+import {PurchaseComponent} from './purchase/purchase.component';
 
 const routes: Routes = [
 
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'card', component: CardComponent },
   { path: 'cards-others', component: CardsOthersComponent },
   { path: 'content-trial', component: ContentTrialComponent },
-  { path: 'app-footer', component: FooterComponent }
+  { path: 'app-footer', component: FooterComponent },
+  { path: 'purchase', component: PurchaseComponent }
 
 
 ];

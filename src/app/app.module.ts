@@ -58,6 +58,7 @@ import { HomeComponent } from './home/home.component';
 import { CardsOthersComponent } from './cards-others/cards-others.component';
 import { ContentTrialComponent } from './content-trial/content-trial.component';
 import { FooterComponent } from './footer/footer.component';
+import { PurchaseComponent } from './purchase/purchase.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,6 +68,7 @@ import { FooterComponent } from './footer/footer.component';
     CardsOthersComponent,
     ContentTrialComponent,
     FooterComponent,
+    PurchaseComponent,
   ],
   imports: [
     BrowserModule,
