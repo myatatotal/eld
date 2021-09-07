@@ -1,4 +1,4 @@
-# Projecto Eldorado
+# Projeto Eldorado
 
 Utilizar npm install  e ng serve para rodar a aplicação.
 
