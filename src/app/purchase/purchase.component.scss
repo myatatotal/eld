@@ -1,3 +1,6 @@
+@import '../../assets/scss/styles.scss';
+
+
 @media screen and (min-width:320px) {
   .purchase {
     width: 100%;
@@ -6,25 +9,25 @@
     display: block;
     position: relative;
     padding: 50px;
-    background-color: white;
+    background-color: $white;
     h3 {
       font-size: 42px;
       text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: $font;
       line-height: 44px;
       padding: 10px;
     }
     h4 {
       font-size: 32px;
       text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: $font;
       line-height: 44px;
       padding: 10px;
     }
     p{
       font-size: 34px;
       text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: $font;
       line-height: 44px;
       padding: 10px;
     }
@@ -44,24 +47,24 @@
         width: 500px;
         font-size: 18px;
         text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font;
         line-height: 34px;
         padding: 10px;
-        color: black;
+        color: $black;
         display: none;
       }
       h5.red-style {
         font-size: 18px;
         text-align: right;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font;
         line-height: 34px;
         padding: 10px;
-        color: red;
+        color: $red;
       }
       h5.black-style-right {
         font-size: 18px;
         text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font;
         line-height: 34px;
         padding: 10px;
         color: black;
@@ -70,7 +73,7 @@
       mat-icon.red-style {
         margin-top: 0;
         border-radius: 15px;
-        color: red;
+        color: $red;
         padding: 1px;
         display: inline-block;
         height: 35px;
@@ -79,7 +82,7 @@
       mat-icon.black-style-right {
         margin-top: 0;
         border-radius: 15px;
-        color: black;
+        color: $black;
         padding: 1px;
         display: inline-block;
         height: 35px;
@@ -94,7 +97,7 @@
   .purchase {
     .boxracer {
       margin-bottom: 10px;
-      border: 1px solid black;
+      border: 1px solid $black;
       h5.black-style-left {
         display: block;
       }
